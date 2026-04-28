@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 Mohamed Adam Jemal — Portfolio
 
-First, run the development server:
+A modern, responsive personal portfolio website built with **Next.js 15**, **TypeScript**, and **Tailwind CSS** — showcasing my projects, skills, and professional journey.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-4F46E5?style=for-the-badge)](https://portfolio-sandy-two-74.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Tech Stack](#-tech-stack)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Deployment](#-deployment)
+- [License](#-license)
+- [Contact](#-contact)
+
+---
+
+## 🧭 Overview
+
+This portfolio is a clean, performance-optimized web application that serves as my digital presence. It highlights my work, technical expertise, and background — designed with a focus on aesthetics, accessibility, and smooth user experience.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | [Next.js 15](https://nextjs.org) (App Router) |
+| Language | [TypeScript](https://www.typescriptlang.org) |
+| Styling | [Tailwind CSS](https://tailwindcss.com) |
+| UI Components | [shadcn/ui](https://ui.shadcn.com) |
+| Package Manager | [Bun](https://bun.sh) |
+| Deployment | [Vercel](https://vercel.com) |
+
+---
+
+## ✨ Features
+
+- ⚡ **Blazing fast** — built on the Next.js App Router with server components
+- 🎨 **Polished UI** — custom design system powered by shadcn/ui and Tailwind CSS
+- 📱 **Fully responsive** — seamless experience across mobile, tablet, and desktop
+- 🌙 **Dark mode ready** — theme-aware styling throughout
+- 🔤 **Optimized typography** — auto-loaded [Geist](https://vercel.com/font) font via `next/font`
+- 🚀 **Production-grade** — deployed on Vercel with automatic CI/CD on push
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have one of the following installed:
+
+- [Node.js](https://nodejs.org) `>= 18`
+- [Bun](https://bun.sh) *(recommended)*
+
+### Installation
 
 ```bash
-npm run dev
+# Clone the repository
+git clone https://github.com/Mohamed-Adam-Jemal/portfolio.git
+
+# Navigate into the project directory
+cd portfolio
+
+# Install dependencies
+bun install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun dev
+# or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-## Learn More
+The page hot-reloads as you edit files. Start by modifying `app/page.tsx`.
 
-To learn more about Next.js, take a look at the following resources:
+### Build for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+bun run build
+# or
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Preview Production Build
 
-## Deploy on Vercel
+```bash
+bun run start
+# or
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```
+portfolio/
+├── app/                  # Next.js App Router (pages, layouts, routes)
+├── src/                  # Source code (components, utilities, styles)
+├── public/               # Static assets (images, icons, fonts)
+├── components.json       # shadcn/ui component configuration
+├── next.config.ts        # Next.js configuration
+├── tailwind.config.*     # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── package.json          # Project dependencies & scripts
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed on **[Vercel](https://vercel.com)** — the platform built by the creators of Next.js.
+
+To deploy your own fork:
+
+1. Push the repository to GitHub.
+2. Import the repo at [vercel.com/new](https://vercel.com/new).
+3. Vercel auto-detects the Next.js framework and configures everything.
+4. Every push to `main` triggers an automatic production deployment.
+
+For more details, refer to the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+**Mohamed Adam Jemal**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Mohamed--Adam--Jemal-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Adam-Jemal)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4F46E5?style=flat-square&logo=vercel)](https://portfolio-sandy-two-74.vercel.app)
+
+---
+
+<div align="center">
+
+Made with ❤️ by Mohamed Adam Jemal
+
+</div>
