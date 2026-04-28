@@ -6,11 +6,13 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
+const GEMINI_MODEL = "gemini-2.5-flash";
+
 export const GenerateResponseStream = async ({prompt ,SystemPrompt , history, apikey, generationConfig } : {prompt: string, SystemPrompt: string, history: Content[], apikey: string, generationConfig: GenerationConfig}) => {
     try {
       const genAI = new GoogleGenerativeAI(apikey);
       const model = genAI.getGenerativeModel({ 
-        model: "gemini-2.0-flash-exp",
+        model: GEMINI_MODEL,
         systemInstruction: SystemPrompt
       });
   
