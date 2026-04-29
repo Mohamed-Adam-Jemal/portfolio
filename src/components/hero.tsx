@@ -89,9 +89,14 @@ export function Hero() {
             <Image
               src={personalData.img}
               alt={personalData.name}
-              width={120}
-              height={120}
-              className="rounded-full object-cover border-4 border-indigo-500 sm:w-[140px] sm:h-[140px] md:w-[160px] md:h-[160px] lg:w-[180px] lg:h-[180px] xl:w-[200px] xl:h-[200px]"
+              width={200}
+              height={200}
+              className="rounded-full object-cover border-4 border-indigo-500 
+                        w-[120px] h-[120px]
+                        sm:w-[140px] sm:h-[140px] 
+                        md:w-[160px] md:h-[160px] 
+                        lg:w-[180px] lg:h-[180px] 
+                        xl:w-[200px] xl:h-[200px]"
             />
           </div>
           <div className="mt-6 sm:mt-8 md:mt-10 lg:mt-4 text-2xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 md:mb-2 animated-text-gradient leading-tight">
