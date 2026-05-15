@@ -195,8 +195,8 @@ export function Contact() {
 
         <div className="text-center mt-16 pt-8 border-t border-indigo-500/30">
           <p className="text-gray-400 text-lg">
-            © {currentYear} <span className="professional-highlight">Mohamed Adam Jemal</span>. Crafted with passion using
-            Next.js & Tailwind CSS.
+            © {currentYear} <span className="professional-highlight">Mohamed Adam Jemal</span>. Based on open source work by{' '}
+            <a href="https://github.com/RayenSahmim/portfolio" target="_blank" rel="noopener noreferrer" className="professional-highlight hover:opacity-80 transition-opacity">Rayen Sahmim</a>.
           </p>
         </div>
       </div>
